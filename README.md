@@ -73,6 +73,27 @@ python saas_sec_monitor.py --days 14    # Extend lookback window to 14 days
 
 ---
 
+### `momentum_backtest.py` — S&P 500 momentum factor backtest
+Implements the classic **12-1 momentum strategy** (Jegadeesh & Titman, 1993): rank all stocks by their prior 12-month return (skipping the most recent month), go long the top decile, short the bottom decile, rebalance monthly.
+
+```bash
+pip install pandas numpy matplotlib yfinance
+python momentum_backtest.py
+```
+
+**Output:**
+```
+Long-Only Momentum   → +23.8% annualized  (Sharpe 0.88)
+S&P 500 Buy & Hold   → +12.3% annualized  (Sharpe 0.54)
+Long-Short Alpha     → -12.0% vs. benchmark (short leg hurt in bull market)
+```
+
+Generates a 4-panel dark-mode chart: cumulative returns, rolling Sharpe, drawdown, and return distribution. Outputs `momentum_backtest_results.png`.
+
+**Universe:** 50-stock S&P 500 cross-section | **Data:** Yahoo Finance (free) | **Window:** 5 years monthly
+
+---
+
 ## Setup
 
 ```bash
