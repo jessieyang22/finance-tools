@@ -1,0 +1,5 @@
+expiry,monotonicity_violations,convexity_violations,note
+2026-10-16,0,71,"Midpoint diagnostics, not executable arbitrage; discrete quote noise and parity estimate matter."
+2026-11-06,0,3,"Midpoint diagnostics, not executable arbitrage; discrete quote noise and parity estimate matter."
+2026-12-18,0,30,"Midpoint diagnostics, not executable arbitrage; discrete quote noise and parity estimate matter."
+2026-12-31,0,94,"Midpoint diagnostics, not executable arbitrage; discrete quote noise and parity estimate matter."

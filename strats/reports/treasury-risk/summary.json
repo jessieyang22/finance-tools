@@ -1,0 +1,9 @@
+{
+  "valuation_date": "2026-09-10",
+  "first_curve_date": "2024-01-02",
+  "curve_dates": 673,
+  "observed_shocks": 672,
+  "actual_treasury_notes": 5,
+  "maximum_auction_price_error": 0.0002048098853464353,
+  "results_type": "historical_shock_model_repricing_not_realized_trading_pnl"
+}

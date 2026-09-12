@@ -1,0 +1,10 @@
+strategy,cusip,face_dollars
+unhedged,91282CNX5,1000000.0
+unhedged,91282CNV9,0.0
+unhedged,91282CNT4,0.0
+parallel_dv01_hedge,91282CNX5,1000000.0
+parallel_dv01_hedge,91282CNV9,0.0
+parallel_dv01_hedge,91282CNT4,-504066.4484482734
+key_rate_least_squares_hedge,91282CNX5,1000000.0
+key_rate_least_squares_hedge,91282CNV9,-31298.828467554024
+key_rate_least_squares_hedge,91282CNT4,-40302.11604160049

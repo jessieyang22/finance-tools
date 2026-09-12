@@ -1,5 +1,16 @@
 # finance-tools
 
+## Quantitative pricing and risk projects
+
+New projects with archived real data, reproducible reports, and numerical validation.
+
+- [Options pricing and hedge sensitivities](strats/reports/options-pricing/README.md) uses real Cboe SPXW quotes for implied volatility, Greeks, smile validation, and local hedge sizing.
+- [Treasury curve and bond risk](strats/reports/treasury-risk/README.md) uses official rate history and actual Treasury notes for valuation, DV01, key-rate risk, and historical-shock repricing.
+
+[Run both projects and inspect methodology](strats/README.md). The new projects are self-contained under `strats/`; the older scripts below have separate assumptions and were not audited as part of this work.
+
+---
+
 Python scripts I built to systematize my equity research process. No API keys required — all data from free public sources (Yahoo Finance, SEC EDGAR, FRED).
 
 **Coverage universe:** HUBS · CRM · NOW · DDOG · SNOW · ADBE

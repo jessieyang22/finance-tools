@@ -1,0 +1,19 @@
+{
+  "snapshot": "2026-09-11 03:57:30",
+  "assumed_timezone": "America/New_York",
+  "rate_date": "2026-09-10",
+  "raw_scope_quotes": 6824,
+  "accepted_quotes": 960,
+  "expiries": 4,
+  "quote_exclusions": {
+    "unselected_expiry": 3200,
+    "outside_strike_scope": 1474,
+    "in_the_money_counterpart": 970,
+    "accepted": 960,
+    "wide_or_empty_market": 142,
+    "invalid_or_zero_market": 78
+  },
+  "maximum_iv_roundtrip_error": 3.901448053511558e-10,
+  "historical_hedging_status": "unavailable_single_snapshot",
+  "stale_underlying_last_trade_time": "2026-09-10T16:14:59"
+}

@@ -1,0 +1,58 @@
+{
+  "data_mode": "observed_market_and_official_data",
+  "sources": [
+    {
+      "name": "treasury-2024.xml",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2024",
+      "path": "raw/treasury-2024-e80a014e24da.xml.gz",
+      "sha256_uncompressed": "e80a014e24dab3d23c3f6055dbd413cfc3816fc85544176cca7897e5d84d3aa7",
+      "bytes_uncompressed": 284423,
+      "retrieved_at_utc": "2026-09-11T04:17:59.177162+00:00"
+    },
+    {
+      "name": "treasury-2025.xml",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2025",
+      "path": "raw/treasury-2025-84392849c1ad.xml.gz",
+      "sha256_uncompressed": "84392849c1ad3af0ee2c1b422da552e5f916508f5e1e02c7ccf123ef856905b6",
+      "bytes_uncompressed": 345104,
+      "retrieved_at_utc": "2026-09-11T04:17:59.218896+00:00"
+    },
+    {
+      "name": "treasury-2026.xml",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "path": "raw/treasury-2026-d8f1af7e03ae.xml.gz",
+      "sha256_uncompressed": "d8f1af7e03ae00b02709464ca239fa177a79787cea93900b5d86de0a19c87291",
+      "bytes_uncompressed": 269503,
+      "retrieved_at_utc": "2026-09-11T04:17:58.804722+00:00"
+    },
+    {
+      "name": "options.json",
+      "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/_SPX.json",
+      "path": "raw/options-4c3f64ff3776.json.gz",
+      "sha256_uncompressed": "4c3f64ff3776b2461d225fd5507f21e2c2d644b59fbaee7e5bcc69cc04ba0639",
+      "bytes_uncompressed": 12799858,
+      "retrieved_at_utc": "2026-09-11T04:16:56.309655+00:00"
+    },
+    {
+      "name": "securities.json",
+      "url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&type=Note&auctionDate=2025-08-01,2025-08-31",
+      "path": "raw/securities-2b2a67c74a0d.json.gz",
+      "sha256_uncompressed": "2b2a67c74a0dac22deb9730ce0e1f33691e71ed9f2fabd71b409cc611fc1446b",
+      "bytes_uncompressed": 17936,
+      "retrieved_at_utc": "2026-09-11T04:16:56.736044+00:00"
+    }
+  ],
+  "policy": "No fabricated prices, yields, quotes, security terms, or historical observations.",
+  "normalized_files": {
+    "options.csv": "b793365c16fcc9630d2b0fa1042ec0be2b02e4749e3e87ca0ec45c5c46ef1142",
+    "options_metadata.json": "315b79de0792de3662ced8625584111b98f48baea3c56438aa799102806baaab",
+    "securities.csv": "a96cf2c7ca2fb7bd974f69144dc33c7822f8564b0b3af7566ddfa136c01cccb8",
+    "treasury.csv": "abb8b23c85157ee80f82fc7f76d08cff544159e83481c39d9aa4d3a2a03d9202"
+  },
+  "counts": {
+    "rate_observations": 8749,
+    "curve_dates": 673,
+    "security_records": 5,
+    "options_in_scope": 6824
+  }
+}

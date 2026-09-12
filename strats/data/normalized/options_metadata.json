@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-11 03:57:30",
+  "symbol": "_SPX",
+  "underlying": {
+    "symbol": "^SPX",
+    "security_type": "index",
+    "exchange_id": 5,
+    "current_price": 7591.7002,
+    "price_change": -44.6598,
+    "price_change_percent": -0.5883,
+    "bid": 7566.1201,
+    "ask": 7628.3901,
+    "bid_size": 1,
+    "ask_size": 1,
+    "open": 7594.7402,
+    "high": 7612.8599,
+    "low": 7580.0601,
+    "close": 7591.7002,
+    "prev_day_close": 7591.7002,
+    "volume": 0,
+    "iv30": 13.991,
+    "iv30_change": 0.0,
+    "iv30_change_percent": 0.0,
+    "seqno": 26858737105,
+    "last_trade_time": "2026-09-10T16:14:59",
+    "tick": "down"
+  },
+  "timestamp_convention": "Cboe timestamp has no offset; analysis explicitly assumes America/New_York."
+}
